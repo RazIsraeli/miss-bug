@@ -1,0 +1,90 @@
+[
+  {
+    "_id": "7xBRF",
+    "title": "Long text is allowed and breaks the page design",
+    "severity": 3,
+    "description": "We should definitely restrict inserting long text",
+    "creator": {
+      "_id": "uCQ7i",
+      "username": "MJ"
+    },
+    "createdAt": 1668515491027
+  },
+  {
+    "title": "Raz Is a Bug",
+    "severity": 2,
+    "_id": "BGZGD",
+    "createdAt": 1668515215252,
+    "description": "A serious bug we should find a way to remove",
+    "creator": {
+      "_id": "u101",
+      "username": "Razi"
+    }
+  },
+  {
+    "_id": "kUq1w",
+    "title": "Non admin user has access to admin page",
+    "description": "Not possiblt to restrict non-admin users from the admin page.",
+    "severity": 1,
+    "createdAt": "1542107319685",
+    "creator": {
+      "_id": "u101",
+      "username": "Razi"
+    }
+  },
+  {
+    "title": "Payment platform doesn't process payment",
+    "description": "When trying to pay with a valid card, the system doesn't process the payment and always fails.",
+    "severity": 2,
+    "createdAt": "15421074658987",
+    "_id": "QO0o5",
+    "creator": {
+      "_id": "u101",
+      "username": "Razi"
+    }
+  },
+  {
+    "_id": "c101",
+    "title": "The app is not responsive",
+    "description": "Responsive app is needed for users with mobile devices",
+    "severity": 3,
+    "createdAt": "1542107346598",
+    "creator": {
+      "_id": "u101",
+      "username": "Razi"
+    }
+  },
+  {
+    "_id": "c103",
+    "title": "Spelling errors in home page translation to French language",
+    "description": "The home page has spelling mistakes in the French language",
+    "severity": 2,
+    "createdAt": "1542107359454",
+    "creator": {
+      "_id": "u101",
+      "username": "Razi"
+    }
+  },
+  {
+    "_id": "OkC1F",
+    "title": "Filtering doesn't work",
+    "severity": 1,
+    "description": "Payments issues in the app",
+    "createdAt": 1668517745641,
+    "creator": {
+      "_id": "u101",
+      "username": "Razi"
+    }
+  },
+  {
+    "_id": "OkC1F",
+    "title": "Filtering doesn't work",
+    "severity": 1,
+    "description": "Payments issues in the app",
+    "createdAt": 1668517745641,
+    "creator": {
+      "_id": "u101",
+      "username": "Razi"
+    }
+  }
+]

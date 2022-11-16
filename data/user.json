@@ -1,0 +1,50 @@
+[
+  {
+    "username": "numa",
+    "password": "tom",
+    "fullName": "Noam Axar",
+    "_id": "uPCmU"
+  },
+  {
+    "username": "test",
+    "password": "user",
+    "fullName": "Test User",
+    "_id": "ukel5"
+  },
+  {
+    "username": "MJ",
+    "fullName": "Michael Jordan",
+    "password": "michael",
+    "_id": "uCQ7i"
+  },
+  {
+    "username": "Jesus",
+    "fullName": "Edison Wu",
+    "password": "Christ",
+    "_id": "uHV9D"
+  },
+  {
+    "username": "LBJ",
+    "fullName": "Lebron James",
+    "password": "theking",
+    "_id": "ueoMy"
+  },
+  {
+    "_id": "u201",
+    "fullName": "Raz Israeli",
+    "username": "Razis",
+    "password": "razis"
+  },
+  {
+    "_id": "u202",
+    "fullName": "Cristiano Ronaldo",
+    "username": "cr7",
+    "password": "cristiano"
+  },
+  {
+    "_id": "u203",
+    "fullName": "Mister Pleasure",
+    "username": "Mrp",
+    "password": "pleasure"
+  }
+]

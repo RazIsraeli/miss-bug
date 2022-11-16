@@ -1,0 +1,275 @@
+body {
+  max-width: 800px;
+  margin: auto;
+}
+
+#app {
+  background: #fae6ef;
+  margin-block-start: 20px;
+  border-radius: 5px;
+  padding-block: 20px;
+  padding-inline: 40px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background: none;
+  font-size: 1.05em;
+}
+
+button:hover {
+  color: rgb(180, 180, 180);
+}
+
+header {
+  font-family: cursive;
+  font-size: 1.5em;
+  text-align: center;
+  margin-block-end: 20px;
+  color: #767676;
+}
+
+header h1 {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #3a7396;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.test-user {
+  font-size: 0.7em;
+  width: fit-content;
+  margin-left: 0;
+  margin-right: auto;
+}
+
+.test-user span {
+  font-weight: 700;
+  color: blue;
+}
+
+.user-forms {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.login-signup {
+  margin-top: 1em;
+}
+
+.login-signup .form-title {
+  margin-right: 2em;
+  margin-left: auto;
+}
+
+.login-signup legend {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.login-signup .login-signup-form {
+  box-shadow: 0 0 5px 2px hsl(240deg 4% 74%);
+  padding: 0.5em;
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.3em;
+  width: fit-content;
+  align-items: flex-end;
+  margin-right: 0;
+  margin-left: auto;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.login-signup .login-signup-form button,
+.logout {
+  width: 100%;
+  text-align: center;
+  background-color: #166fe5;
+  border-radius: 5px;
+  font-size: 0.85em;
+  font-weight: 700;
+  color: white;
+  align-self: center;
+  margin-bottom: 0.3em;
+  margin-top: 0.3em;
+}
+
+.logout {
+  padding: 0 0.3em;
+  width: fit-content;
+  max-width: 30%;
+}
+
+.login-signup .login-signup-form button:hover,
+.logout:hover {
+  background-color: #125ec2;
+}
+.login-signup .login-signup-form input {
+  text-align: center;
+  font-size: 0.8em;
+}
+
+.login-signup .or {
+  align-self: center;
+}
+
+.login-signup .or::after {
+  /* align-self: center; */
+  content: 'OR';
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.subheader {
+  display: flex;
+  /* gap: 20px; */
+  justify-content: space-between;
+  align-items: center;
+  margin-block-end: 20px;
+}
+
+.subheader .download-list::before {
+  content: '📝';
+  font-size: 2em;
+}
+
+.paging {
+  display: flex;
+  justify-content: space-between;
+  margin: 1em 0;
+}
+
+.paging button {
+  box-shadow: 0px 0px 0px 1px black;
+  color: #146dc4;
+  border-radius: 20px;
+}
+
+.paging button:hover {
+  box-shadow: 0 0 5px 1px black;
+}
+
+.main-title {
+  text-align: center;
+  color: rgba(36, 7, 7, 0.685);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.bug-list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.bug-preview,
+.bug-details,
+.bug-edit {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  position: relative;
+  font-size: 1.1em;
+  background-color: whitesmoke;
+  color: #8b8b8b;
+  border-radius: 5px;
+  text-align: center;
+  padding: 10px;
+  width: 200px;
+  height: fit-content;
+  border: 0.2px solid #d8d8d8;
+}
+
+.bug-preview > span:first-child {
+  position: absolute;
+  top: 10px;
+  left: 12px;
+  font-size: 1.1em;
+}
+
+.bug-preview h4 {
+  margin-block-start: 2.5em;
+  flex-grow: 1;
+}
+
+[class^='severity'] {
+  font-weight: bold;
+  margin-block-end: 40px;
+}
+
+.severity1 {
+  color: tomato;
+}
+.severity2 {
+  color: #b69a01;
+}
+.severity3 {
+  color: green;
+}
+
+.bug-preview .actions {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-block-end: 10px;
+}
+
+.bug-preview button {
+  position: absolute;
+  top: 10px;
+  right: 12px;
+}
+
+.bug-edit,
+.bug-details {
+  margin: auto;
+  width: 400px;
+}
+
+.bug-edit form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  margin-block-end: 10px;
+  text-align: start;
+}
+
+.bug-edit label {
+  display: flex;
+  gap: 5px;
+}
+
+.bug-edit .actions {
+  align-self: center;
+  margin-block-start: 20px;
+}
+
+.user-msg {
+  position: absolute;
+  top: 50px;
+  right: 20px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.success {
+  background-color: lightgreen;
+}
+
+.error {
+  background-color: red;
+  color: white;
+}
