@@ -1,5 +1,11 @@
 [
   {
+    "username": "guyk",
+    "password": "123456",
+    "fullName": "guy",
+    "_id": "u2sCw"
+  },
+  {
     "username": "numa",
     "password": "tom",
     "fullName": "Noam Axar",

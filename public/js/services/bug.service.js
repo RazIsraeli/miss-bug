@@ -16,7 +16,7 @@ function query(filterBy) {
 function getById(bugId) {
   return axios.get(BASE_URL + bugId).then((res) => res.data)
 }
-
+//! REFACTOR THE FUNCTIONS THAT CHANGE BUGS TO DO THE VALIDATIONS ON THE BACKEND USING THE COOKIE (validateToken)
 function remove(bugId, user) {
   return getById(bugId).then((bug) => {
     if (bug.creator._id !== user._id) {

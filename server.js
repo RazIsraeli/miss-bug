@@ -69,7 +69,9 @@ app.post('/api/bug/', (req, res) => {
 
 //UPDATE
 app.put('/api/bug/:bugId', (req, res) => {
+  // const user = userService.validateToken(req.cookie.loginToken)
   const { _id, title, severity, description, creator, createdAt } = req.body
+  // if(user._id !== _id) res.status(400).send('Dude its not your bug , bo')
   const bug = {
     _id,
     title,
@@ -84,8 +86,6 @@ app.put('/api/bug/:bugId', (req, res) => {
 //DELETE
 app.delete('/api/bug/:bugId', (req, res) => {
   const { bugId } = req.params
-  console.log(req.body)
-  console.log('_id: ', _id)
   bugService.remove(bugId).then(() => res.send('bug removed!'))
 })
 

@@ -19,6 +19,7 @@ function signup({ username, password, fullName }) {
       return _setLoggedInUser(user)
     })
 }
+
 function login({ username, password }) {
   return axios
     .post('/api/auth/login', { username, password })
@@ -30,6 +31,7 @@ function login({ username, password }) {
       showErrorMsg(err.response.data)
     })
 }
+
 function getLoggedInUser() {
   return JSON.parse(sessionStorage.getItem(STORAGE_KEY_LOGGEDIN_USER))
 }
